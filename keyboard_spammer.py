@@ -31,7 +31,7 @@ class KeyboardSpammer:
         self.GLASS_COLOR = "#FFFFFF"    # 毛玻璃颜色
         
         # 设置透明度和背景
-        self.root.attributes('-alpha', 0.97)  # ���微调整透明度
+        self.root.attributes('-alpha', 0.97)  # 微调整透明度
         
         # 创建主框架，添加内边距
         self.main_container = tk.Frame(self.root, bg=self.BG_COLOR)
